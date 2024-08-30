@@ -1,10 +1,12 @@
 import landingImage from '../assets/landingPageAsset1.png'
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+
 function welcomePage(){
     return(
         <>
             <div className="p-2">
                 <header className="headerStyle p-3">
-                    <div class="px-3">
+                    <div class="">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="30" height="6" rx="3" fill="#B4BDD8"/>
                             <rect width="6" height="6" rx="3" fill="#1E3A8A"/>
@@ -13,17 +15,40 @@ function welcomePage(){
                         </svg>
                         <span class="">Easycal</span>
                     </div>
-                    <div>
-                        <button>Login</button>
+                    <div className="">
+                        <div className="dns"><button>Login</button>
                         <button class="px-2 py-1 border rounded bg-secondary mx-2">Get Started</button>
+                        </div>
+                        <div className="sh">
+                            <Menu>
+                                <MenuButton className='text-blue-900'><i class="bi bi-list"></i></MenuButton>
+                                <MenuItems anchor="bottom" className="pe-2 bg-primary-400">
+                                    <MenuItem>
+                                    <a className="block data-[focus]:bg-blue-100" href="/settings">
+                                        Login
+                                    </a>
+                                    </MenuItem>
+                                    <MenuItem>
+                                    <a className="block data-[focus]:bg-blue-100" href="/support">
+                                        Signup
+                                    </a>
+                                    </MenuItem>
+                                    <MenuItem>
+                                    <a className="block data-[focus]:bg-blue-100" href="/license">
+                                        About us
+                                    </a>
+                                    </MenuItem>
+                                </MenuItems>
+                            </Menu>
+                        </div>
                     </div>
                 </header>
                 <main className="mt-5">
-                    <div className="flex flex-row">
+                    <div className="md:flex justify-content-between">
                         <div>
-                            <h3>Unlock Smarter Loan Decisions</h3>
+                            <h1 className="">Unlock Smarter Loan <span className='text-blue-900'>Decisions</span></h1>
                             <p>Get clear insights on your payments, costs, and financial health. Start making smarter loan decisions today.</p>
-                            <button className="bg-blue-950 text-white border rounded-full p-2"> Get Started <i className="bi bi-arrow-"></i></button>
+                            <button className="bg-blue-950 text-white border rounded-full p-2 mt-5"> Get Started <i class="bi bi-arrow-right pl-1"></i></button>
                         </div>
                         <div>
                             <img src={landingImage} alt="CalculatorPNG"/>
