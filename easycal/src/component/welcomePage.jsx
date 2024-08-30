@@ -50,7 +50,7 @@ function welcomePage(){
                             <p>Get clear insights on your payments, costs, and financial health. Start making smarter loan decisions today.</p>
                             <button className="bg-blue-950 text-white border rounded-full p-2 mt-5"> Get Started <i class="bi bi-arrow-right pl-1"></i></button>
                         </div>
-                        <div>
+                        <div className='img-container'>
                             <img src={landingImage} alt="CalculatorPNG"/>
                             </div>
                     </div>

@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -66,4 +66,7 @@ h1{
   .dns{
     display: inline
   }
+}
+.img-container > img{
+  width: 100%;
 }
