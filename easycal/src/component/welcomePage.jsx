@@ -3,7 +3,7 @@ function welcomePage(){
         <>
             <div>
                 <header>
-                    <div class="">
+                    <div class="px-3">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="30" height="6" rx="3" fill="#B4BDD8"/>
                             <rect width="6" height="6" rx="3" fill="#1E3A8A"/>
@@ -14,7 +14,7 @@ function welcomePage(){
                     </div>
                     <div>
                         <button>Login</button>
-                        <button class="">Get Started</button>
+                        <button class="px-2 py-1">Get Started</button>
                     </div>
                 </header>
                 <main></main>
