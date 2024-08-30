@@ -1,3 +1,4 @@
+import landingImage from '../assets/landingPageAsset1.png'
 function welcomePage(){
     return(
         <>
@@ -24,7 +25,9 @@ function welcomePage(){
                             <p>Get clear insights on your payments, costs, and financial health. Start making smarter loan decisions today.</p>
                             <button className="bg-blue-950 text-white border rounded-full p-2"> Get Started <i className="bi bi-arrow-"></i></button>
                         </div>
-                        <div><img src="../assets/landingPageAsset1.png" alt="CalculatorPNG"/></div>
+                        <div>
+                            <img src={landingImage} alt="CalculatorPNG"/>
+                            </div>
                     </div>
                 </main>
                 <footer></footer>
