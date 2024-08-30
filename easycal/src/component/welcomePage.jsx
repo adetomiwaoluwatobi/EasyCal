@@ -12,6 +12,10 @@ function welcomePage(){
                         </svg>
                         <span class="">Easycal</span>
                     </div>
+                    <div>
+                        <button>Login</button>
+                        <button class="">Get Started</button>
+                    </div>
                 </header>
                 <main></main>
                 <footer></footer>
