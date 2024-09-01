@@ -4,7 +4,7 @@ function logPage(){
     return(
         <>
             <div className="login">
-            <header className="headerStyle p-3">
+                <header className="headerStyle p-3">
                     <div class="px-3">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="30" height="6" rx="3" fill="#B4BDD8"/>
@@ -35,7 +35,7 @@ function logPage(){
                                 </div>
                                 <button className='rounded-full bg-blue-950 p-2 w-100 mb-5 text-white'>Sign up</button>
                                 <p className="text-center mb-5"> or sign up with</p>
-                                <button className=' flex justify-center items-center gap-1 rounded-sm border-teal-950 w-100 p-2'>
+                                <button className='flex justify-center items-center gap-1 border rounded-full border-gray-300 w-100 p-2'>
                                 <svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M29.574 13.3887H28.5V13.3334H16.5V18.6667H24.0354C22.936 21.7714 19.982 24.0001 16.5 24.0001C12.082 24.0001 8.50002 20.4181 8.50002 16.0001C8.50002 11.5821 12.082 8.00008 16.5 8.00008C18.5394 8.00008 20.3947 8.76941 21.8074 10.0261L25.5787 6.25475C23.1974 4.03541 20.012 2.66675 16.5 2.66675C9.13669 2.66675 3.16669 8.63675 3.16669 16.0001C3.16669 23.3634 9.13669 29.3334 16.5 29.3334C23.8634 29.3334 29.8334 23.3634 29.8334 16.0001C29.8334 15.1061 29.7414 14.2334 29.574 13.3887Z" fill="#FFC107"/>
                                     <path d="M4.70398 9.79408L9.08465 13.0067C10.27 10.0721 13.1406 8.00008 16.5 8.00008C18.5393 8.00008 20.3946 8.76941 21.8073 10.0261L25.5786 6.25475C23.1973 4.03541 20.012 2.66675 16.5 2.66675C11.3786 2.66675 6.93731 5.55808 4.70398 9.79408Z" fill="#FF3D00"/>
