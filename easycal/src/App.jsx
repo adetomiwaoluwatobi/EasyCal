@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Welcome from './component/welcomePage'
+import logpage from './component/logPage'
+import LogPage from './component/logPage'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -31,7 +33,8 @@ function App() {
     //   </p>
     // </>
     <>
-    <Welcome></Welcome>
+    {/* <Welcome></Welcome> */}
+    <LogPage></LogPage>
     </>
   )
 }
