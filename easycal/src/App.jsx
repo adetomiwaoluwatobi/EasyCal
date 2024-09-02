@@ -6,6 +6,7 @@ import Welcome from './component/welcomePage'
 import logpage from './component/logPage'
 import LogPage from './component/logPage'
 import Dashboard from './component/dashboard'
+import DashboardHome from './component/dashboardHome'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -37,6 +38,7 @@ function App() {
     {/* <Welcome></Welcome> */}
     {/* <LogPage></LogPage> */}
     <Dashboard></Dashboard>
+    {/* <DashboardHome></DashboardHome> */}
     </>
   )
 }
