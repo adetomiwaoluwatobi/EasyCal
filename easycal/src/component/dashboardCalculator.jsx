@@ -12,9 +12,9 @@ function dashboardCalculator(){
                 <div className="w-9/12 mt-5">
                     <p className="text-slate-500">Calculators</p>
                     <div className="md:flex justify-between">
-                        <button className="px-5 bg-slate-950 text-white py-1 border rounded-full">Fees per month Calculator</button>
-                        <button className="px-5 bg-slate-950 text-white py-1 border rounded-full">Outstanding Balance Calculator</button>
-                        <button className="px-5 bg-slate-950 text-white py-1 border rounded-full">Early Repayment Calculator</button>
+                        <button className="px-5 text-slate-950 bg-white py-1 border rounded-full">Fees per month Calculator</button>
+                        <button className="px-5 text-slate-950 bg-white py-1 border rounded-full">Outstanding Balance Calculator</button>
+                        <button className="px-5 text-slate-950 bg-white py-1 border rounded-full">Early Repayment Calculator</button>
                     </div>
                 </div>
             </div>
