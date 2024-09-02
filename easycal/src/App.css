@@ -80,3 +80,16 @@ h1{
 .login > main{
   height: 90vh;
 }
+.h2{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.form-control{
+  width: 100%;
+  border: 1px solid grey;
+  padding: 7px;
+  border-radius: 0.5rem;
+}
+.w-100{
+  width: 100%;
+}
