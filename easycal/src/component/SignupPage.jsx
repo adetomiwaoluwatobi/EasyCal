@@ -1,7 +1,6 @@
-// import { Input } from '@headlessui/react'
 import { Outlet, Link } from "react-router-dom";
 
-function logPage(){
+function Signup(){
     return(
         <>
             <div className="login">
@@ -16,24 +15,23 @@ function logPage(){
                         <span class="">Easycal</span>
                     </div>
                     <div>
-                        {/* <button>Login</button> */}
-                        <Link to={"/Signup"} class="px-2 py-1 border rounded bg-secondary mx-2">Get Started</Link>
+                        <Link className='text-blue-900' to={"/login"}>Login</Link>
+                        {/* <button class="px-2 py-1 border rounded bg-secondary mx-2">Get Started</button> */}
                     </div>
                 </header>
                 <main className="flex justify-center items-center bg-slate-100 p-3">
                     <div className="flex justify-center items-center bg-white p-5">
                         <div>
                             <form action="/" className="">
-                                <h2 className="h2 mb-4">Login to your account</h2>
+                                <h2 className="h2 mb-4">Create Account</h2>
                                 <div>
-                                <input type="text" className="form-control mb-2" name="" id="" placeholder='username' />
-                                {/* <p className='m-0 mb-2'><small>must be unique</small></p> */}
-                                {/* <input type="email" className="form-control mb-3" name="" id="" placeholder='Email' /> */}
+                                <input type="text" className="form-control" name="" id="" placeholder='username' />
+                                <p className='m-0 mb-2'><small>must be unique</small></p>
+                                <input type="email" className="form-control mb-3" name="" id="" placeholder='Email' />
                                 <input type="password" className="form-control" name="" id="" placeholder='password' />
                                 <p className=''><small>Passwords must be 8 digits, alphanumeric</small></p>
                                 <div className="mb-5">
-                                    <input type="checkbox" name="" id="" className="mr-2" />Remember me 
-                                    {/* <a href="#" className="text-blue-950">Terms and condition</a> */}
+                                    <input type="checkbox" name="" id="" className="mr-2" />I accept the <a href="#" className="text-blue-950">Terms and condition</a>
                                 </div>
                                 <button className='rounded-full bg-blue-950 p-2 w-100 mb-5 text-white'>Sign up</button>
                                 <p className="text-center mb-5"> or sign up with</p>
@@ -58,4 +56,5 @@ function logPage(){
         </>
     )
 }
-export default logPage;
+
+export default Signup;

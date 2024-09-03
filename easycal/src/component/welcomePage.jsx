@@ -1,5 +1,7 @@
 import landingImage from '../assets/landingPageAsset1.png'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Outlet, Link } from "react-router-dom";
+
 
 function welcomePage(){
     return(
@@ -16,8 +18,10 @@ function welcomePage(){
                         <span class="">Easycal</span>
                     </div>
                     <div className="">
-                        <div className="dns"><button>Login</button>
-                        <button class="px-2 py-1 border rounded bg-secondary mx-2">Get Started</button>
+                        <div className="dns">
+                            {/* <Link to={"/dashboard"}>Dashboard</Link> */}
+                            <Link className='text-blue-900' to={"/login"}>Login</Link>
+                            <Link to={"/Signup"} class="px-2 py-1 border rounded bg-secondary mx-2">Get Started</Link>
                         </div>
                         <div className="sh">
                             <Menu>
@@ -54,6 +58,7 @@ function welcomePage(){
                             <img src={landingImage} alt="CalculatorPNG"/>
                             </div>
                     </div>
+                    <div></div>
                 </main>
                 <footer></footer>
             </div>

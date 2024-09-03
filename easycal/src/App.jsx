@@ -8,6 +8,7 @@ import LogPage from './component/logPage'
 import Dashboard from './component/dashboard'
 import DashboardHome from './component/dashboardHome'
 
+
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -35,9 +36,9 @@ function App() {
     //   </p>
     // </>
     <>
-    {/* <Welcome></Welcome> */}
+    <Welcome></Welcome>
     {/* <LogPage></LogPage> */}
-    <Dashboard></Dashboard>
+    {/* <Dashboard></Dashboard> */}
     {/* <DashboardHome></DashboardHome> */}
     </>
   )
