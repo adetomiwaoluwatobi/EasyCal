@@ -66,6 +66,7 @@ function welcomePage(){
                                     so you can make informed decisions and take control of your financial future.</p>
                             </div>
                         </div>
+                        
                     </div>
                    
                 </main>
