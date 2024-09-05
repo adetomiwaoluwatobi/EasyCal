@@ -54,6 +54,11 @@ h1{
 }
 .fsh3{
   font-size: 24px;
+  font-weight: bolder;
+}
+.fsh4{
+  font-size: 18px;
+  font-weight: bolder;
 }
 .main-bg{
   background-color: #F2F3F8;
