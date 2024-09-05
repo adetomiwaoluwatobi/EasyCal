@@ -91,7 +91,7 @@ function welcomePage(){
                         <h2 className='text-center pt-5'>Take Control of Your Financial Future</h2>
                         <p className='text-center'>Empower yourself with the insights you need to make informed loan decisions.</p>
                         <div className='text-center mt-4'>
-                            <button className='bg-white text-black py-1 px-2 rounded-full'>Get Started -\</button>
+                            <button className='bg-white text-black py-1 px-2 rounded-full'>Get Started <i class="bi bi-arrow-right"></i></button>
                         </div>
                     </div>
                     <div className='mt-6 px-3'>
@@ -132,6 +132,18 @@ function welcomePage(){
                             </div>
                         </div>
                         <hr />
+                        <div className='md:flex justify-between'>
+                            <div className='md:w-1/2 flex justify-between'> 
+                                <a href="#">Terms of Service</a>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Returns Policy</a>
+
+                            </div>
+                            <div className='md:w-1/2 flex mt-2'> 
+                                <i class="bi bi-c-circle pe-2"></i>
+                                <p>2024 All right reserved</p>
+                            </div>
+                        </div>
                     </div>
                 </footer>
             </div>
