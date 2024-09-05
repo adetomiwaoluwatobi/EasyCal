@@ -6,7 +6,7 @@ import { Outlet, Link } from "react-router-dom";
 function welcomePage(){
     return(
         <>
-            <div className="p-2">
+            <div className="">
                 <header className="headerStyle p-3">
                     <div class="">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,18 +47,27 @@ function welcomePage(){
                         </div>
                     </div>
                 </header>
-                <main className="mt-5">
-                    <div className="md:flex justify-content-between">
-                        <div>
-                            <h1 className="">Unlock Smarter Loan <span className='text-blue-900'>Decisions</span></h1>
-                            <p>Get clear insights on your payments, costs, and financial health. Start making smarter loan decisions today.</p>
-                            <button className="bg-blue-950 text-white border rounded-full p-2 mt-5"> Get Started <i class="bi bi-arrow-right pl-1"></i></button>
-                        </div>
-                        <div className='img-container'>
-                            <img src={landingImage} alt="CalculatorPNG"/>
+                <main className="main-bg">
+                    <div className='pt-5 p-2'>
+                        <div className="md:flex justify-content-between">
+                            <div>
+                                <h1 className="">Unlock Smarter Loan <span className='text-blue-900'>Decisions</span></h1>
+                                <p>Get clear insights on your payments, costs, and financial health. Start making smarter loan decisions today.</p>
+                                <button className="bg-blue-950 text-white border rounded-full p-2 mt-5"> Get Started <i class="bi bi-arrow-right pl-1"></i></button>
                             </div>
+                            <div className='img-container'>
+                                <img src={landingImage} alt="CalculatorPNG"/>
+                                </div>
+                        </div>
+                        <div className='my-4'>
+                            <div className='text-center '>
+                                <h3 className='text-blue-400 mb-1 fsh3'>Money Matters: <span className='text-blue-900'>Making Informed Loan Choices</span></h3>
+                                <p>Explore the key factors that influence your loan journey. From interest rates to repayment terms<br/>
+                                    so you can make informed decisions and take control of your financial future.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div></div>
+                   
                 </main>
                 <footer></footer>
             </div>
