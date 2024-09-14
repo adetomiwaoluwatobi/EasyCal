@@ -35,8 +35,11 @@ function logPage(){
                                     <input type="checkbox" name="" id="" className="mr-2" />Remember me 
                                     {/* <a href="#" className="text-blue-950">Terms and condition</a> */}
                                 </div>
+                                <div className="w-100 flex">
+                                <Link className='rounded-full bg-blue-950 p-2 w-100 mb-5 text-white w-full text-center' to={"/dashboard"}>Login</Link>
+
+                                </div>
                                 {/* <button className='rounded-full bg-blue-950 p-2 w-100 mb-5 text-white'>Sign up</button> text-blue-900*/}
-                                <Link className='rounded-full bg-blue-950 p-2 w-100 mb-5 text-white' to={"/dashboard"}>Login</Link>
 
                                 <p className="text-center mb-5"> or sign up with</p>
                                 <button className='flex justify-center items-center gap-1 border rounded-full border-gray-300 w-100 p-2'>
