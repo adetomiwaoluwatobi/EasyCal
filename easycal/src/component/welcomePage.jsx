@@ -139,7 +139,7 @@ function welcomePage(){
                                 <a href="#">Returns Policy</a>
 
                             </div>
-                            <div className='md:w-1/2 flex mt-2'> 
+                            <div className='md:w-1/2 flex justify-end'> 
                                 <i class="bi bi-c-circle pe-2"></i>
                                 <p>2024 All right reserved</p>
                             </div>

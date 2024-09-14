@@ -1,7 +1,9 @@
+import { Link, Outlet } from 'react-router-dom'
 import profile from '../assets/profile.png'
 import DashboardHome from './dashboardHome'
 import DashboardProfile from './dashboardProfile'
 import DashboardCalculator from './dashboardCalculator'
+import DashboardInitial from './dashboardInitial'
 
 function dashboard(){
     return(
@@ -28,12 +30,12 @@ function dashboard(){
                     </div>
             </header>
             <main className='flex flex-row'>
-                <nav className='basis-1/6 bg-easy-blue px-1 py-5 nav flex flex-col gap-5'>
-                    <a href="#" className='nav-link active'><i className="bi bi-layout-text-sidebar-reverse me-3"></i>  Welcome</a>
-                    <a href="#"><i className="bi bi-x-diamond me-3"></i>Profile</a>
+                <nav className='basis-1/6 bg-easy-blue px-1 py-5 nav flex flex-col gap-5 nav md:h-screen'>
+                    <Link to="Home" className='nav-link active'><i className="bi bi-layout-text-sidebar-reverse me-3"></i>  Welcome</Link>
+                    <Link to="profile"><i className="bi bi-x-diamond me-3"></i>Profile</Link>
                     {/* <a href="#"><i className="bi bi-plus-slash-minus"></i></a> */}
-                    <a href=""><i className="bi bi-calculator-fill me-3"></i> Calculator</a>
-                    <a href="#"><i className="bi bi-info-circle me-3"></i> Settings</a>
+                    <Link to="Calculator"><i className="bi bi-calculator-fill me-3"></i> Calculator</Link>
+                    <Link to="Settings"><i className="bi bi-info-circle me-3"></i> Settings</Link>
                 </nav>
                 <div className='basis-5/6 p-5 tab-cotent bg-slate-50'>
                     <div>
@@ -46,7 +48,9 @@ function dashboard(){
                         </div> */}
                         {/* <DashboardHome></DashboardHome> */}
                         {/* <DashboardProfile></DashboardProfile> */}
-                        <DashboardCalculator></DashboardCalculator>
+                        {/* <DashboardCalculator></DashboardCalculator> */}
+                        {/* <DashboardInitial></DashboardInitial> */}
+                        <Outlet default=""></Outlet>
                     </div>
                     
                 </div>
